@@ -4,6 +4,7 @@ This Python script attempts to brute-force the secret key used to sign a JSON We
 
 ## Usage
 `pip install PyJWT`
+
 `python jwt_cracker.py <jwt_token> common_jwt_secrets.txt`
 
 Test with the default jwt from jwt.io: `python jwt_crack.py eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30 list.txt`
